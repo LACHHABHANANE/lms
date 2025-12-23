@@ -21,10 +21,10 @@ export default function Navbar() {
                         <Link href="/contact" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors">Contact</Link>
                     </div>
                     <div className="flex items-center space-x-4">
-                        <button className="text-gray-600 hover:text-gray-900 font-medium px-3 py-2">Connexion</button>
-                        <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2.5 rounded-full font-medium transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
+                        <Link href="/auth?mode=login" className="text-gray-600 hover:text-gray-900 font-medium px-3 py-2">Connexion</Link>
+                        <Link href="/auth?mode=register" className="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2.5 rounded-full font-medium transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
                             S'inscrire
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </div>
