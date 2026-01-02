@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Button from "./ui/Button";
 
 export default function Footer() {
     return (
@@ -32,8 +33,8 @@ export default function Footer() {
                         <h4 className="text-lg font-bold mb-4 text-indigo-400">Newsletter</h4>
                         <p className="text-sm text-gray-400 mb-4">Recevez nos astuces mathématiques chaque semaine.</p>
                         <div className="flex gap-2">
-                            <input type="email" placeholder="Votre email" className="bg-gray-800 text-white rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-                            <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-3 py-2 rounded font-medium">OK</button>
+                            <input type="email" placeholder="Votre email" className="bg-gray-800 text-white rounded-lg px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-indigo-500 border border-gray-700" />
+                            <Button variant="primary" size="sm">OK</Button>
                         </div>
                     </div>
                 </div>
